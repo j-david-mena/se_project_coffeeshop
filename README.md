@@ -13,4 +13,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+Perhaps the project could be improved by adding more css animation. For example, a coffee cup with moving steam comming from the cup.
