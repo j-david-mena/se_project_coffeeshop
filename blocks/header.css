@@ -1,14 +1,16 @@
 .header {
-  background-color: #ffffff;
+  background-color: #fff;
   background-image: url(../images/background_header.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding: 30px 80px 40px;
+  box-sizing: border-box;
   position: relative;
   height: 800px;
   display: flex;
   flex-direction: column;
+  z-index: 1;
 }
 
 .header__title {
@@ -24,6 +26,7 @@
   display: block;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
+  font-weight: 400;
   color: #3f96f3;
 }
 
@@ -41,6 +44,7 @@
   position: absolute;
   top: 124px;
   right: 5px;
+  z-index: -1;
 }
 
 .header__footer {
